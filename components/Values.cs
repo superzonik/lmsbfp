@@ -79,7 +79,7 @@ namespace LMSBFP.components
         public static int motorpool_tools;
         public static int mpase_firearms;
 
-        public int DRREequipment
+        public int DRREEquipment
         {
             get { return drre_equipment; }
             set { drre_equipment = value; }
