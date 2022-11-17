@@ -43,7 +43,17 @@ namespace LMSBFP.forms
         private void frmDashboard_Load(object sender, EventArgs e)
         {
             record.LoadDRRErecords();
-            lblDRRE.Text = val.DRREequipment.ToString();
+            lblDRRE.Text = val.DRREEquipment.ToString();
+            lblOfficeEquipment.Text = val.OfficeEquipment.ToString();
+            lblICTequipment.Text = val.ICTequipment.ToString();
+            lblOtherMachineries.Text = val.OtherMachineries.ToString();
+            lblMotorVehicles.Text = val.MotorVehicles.ToString();
+            lblMedicalDental.Text = val.MedicalDental.ToString();
+            lblSAGF.Text = val.SAGF.ToString();
+            lblForeignGrants.Text = val.ForeignGrants.ToString();
+            lblCommunication.Text = val.CommunicationEquipment.ToString();
+            lblMotorpool.Text = val.MotorpoolTools.ToString();
+            lblForeignGrants.Text = val.MPASEFirearms.ToString();
         }
     }
 }
